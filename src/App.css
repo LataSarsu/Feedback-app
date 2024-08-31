@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.feedback-app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* .rating-input {
+  margin-bottom: 20px;
+} */
+
+.rating-input {
+  width: 1200px;
+  margin: 15px 0;
+  padding: 70px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: aqua;
+}
+/* .radInp {
+  padding: 15px;
+} */
+.revInp {
+  width: 1000px;
+  height: 30px;
+}
+.feedback-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: aqua;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.feedback-item span {
+  margin-right: 10px; /* Adjust the spacing between Rating and Review */
+}
+
+.feedback-item svg {
+  margin-left: auto; /* Push ImCross to the far right */
+}
+.average-rating {
+  display: flex;
+  gap: 1000px;
+}
